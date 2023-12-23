@@ -9,6 +9,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
+  
     - host: dahhou-ilyas.com
       http:
         paths:
