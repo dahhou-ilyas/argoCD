@@ -20,7 +20,7 @@ metadata:
   name: frontend-deployment
   namespace: devops
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: frontend
